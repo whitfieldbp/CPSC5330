@@ -1,0 +1,38 @@
+t stat
+go
+
+
+
+
+
+
+
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty fixed
+
+#
+# Committer: Benjamin Whitfield <benwhitfield@Benjamins-MacBook-Air.local>
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	new file:   MoodTracker/MoodTracker.xcodeproj/project.pbxproj
+#	new file:   MoodTracker/MoodTracker.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+#	new file:   MoodTracker/MoodTracker.xcodeproj/project.xcworkspace/xcuserdata/benwhitfield.xcuserdatad/UserInterfaceState.xcuserstate
+#	new file:   MoodTracker/MoodTracker.xcodeproj/xcuserdata/benwhitfield.xcuserdatad/xcschemes/xcschememanagement.plist
+#	new file:   MoodTracker/MoodTracker/AppDelegate.swift
+#	new file:   MoodTracker/MoodTracker/Assets.xcassets/AccentColor.colorset/Contents.json
+#	new file:   MoodTracker/MoodTracker/Assets.xcassets/AppIcon.appiconset/Contents.json
+#	new file:   MoodTracker/MoodTracker/Assets.xcassets/Contents.json
+#	new file:   MoodTracker/MoodTracker/Base.lproj/LaunchScreen.storyboard
+#	new file:   MoodTracker/MoodTracker/Base.lproj/Main.storyboard
+#	new file:   MoodTracker/MoodTracker/Info.plist
+#	new file:   MoodTracker/MoodTracker/SceneDelegate.swift
+#	new file:   MoodTracker/MoodTracker/ViewController.swift
+#
+# Changes not staged for commit:
+#	modified:   DiceRoller (modified content, untracked content)
+
