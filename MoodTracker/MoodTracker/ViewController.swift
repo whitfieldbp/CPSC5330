@@ -44,6 +44,8 @@ class ViewController: UIViewController {
             feelingLabel.text = "Happy 😊"
         } else if (81...100).contains(value) {
             feelingLabel.text = "Very Happy 😄"
+        } else {
+            feelingLabel.text = "Neutral 😐"
         }
     }
     
@@ -55,9 +57,9 @@ class ViewController: UIViewController {
         let moodTextParts = feelingLabel.text?.split(separator: " ")
         let moodEmoji = moodTextParts?.last ?? ""
         
+        savedMoodLabel.text = ""
         savedMoodLabel.text = "On \(dateString), you felt \(moodEmoji)"
         savedMoodLabel.isHidden = false
     }
-    
 }
 
