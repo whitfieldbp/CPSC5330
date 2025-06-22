@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_12" orientation="landscape" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,27 +13,99 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyAdventure" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="n1G-JI-Cnz">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="Ry1-Px-xJq">
-                                <rect key="frame" x="30" y="30.000000000000014" width="333" height="253.33333333333337"/>
+                                <rect key="frame" x="59" y="30" width="734" height="136.66666666666666"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="all_stones" translatesAutoresizingMaskIntoConstraints="NO" id="kzI-20-xI2">
-                                        <rect key="frame" x="0.0" y="0.0" width="333" height="208"/>
+                                        <rect key="frame" x="265.33333333333331" y="0.0" width="203.33333333333331" height="63.666666666666664"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="die-y2-8Qs">
-                                        <rect key="frame" x="146" y="233" width="41.333333333333343" height="20.333333333333343"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="You have found the Infinity Stones. Only take one or suffer the consequences..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="die-y2-8Qs" userLabel="initialQuestion">
+                                        <rect key="frame" x="17.666666666666686" y="88.666666666666686" width="699" height="48"/>
+                                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="24"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="qbd-NQ-pFt">
+                                <rect key="frame" x="69" y="216.66666666666666" width="734" height="121.33333333333334"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3tx-Cg-pGS">
+                                        <rect key="frame" x="0.0" y="0.0" width="714" height="13"/>
+                                        <color key="backgroundColor" red="0.55294120309999995" green="0.1725490093" blue="0.14509806040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Take Reality Stone"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Wn-7I-uFD">
+                                        <rect key="frame" x="0.0" y="18" width="714" height="13.333333333333336"/>
+                                        <color key="backgroundColor" red="0.22745099660000001" green="0.30196079609999998" blue="0.51372551919999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Take Space Stone"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0wJ-4w-lwz">
+                                        <rect key="frame" x="0.0" y="36.333333333333343" width="714" height="13"/>
+                                        <color key="backgroundColor" red="0.70588237050000002" green="0.61960786580000005" blue="0.270588249" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Take Mind Stone"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P9B-5R-Bfm">
+                                        <rect key="frame" x="0.0" y="54.333333333333343" width="714" height="13"/>
+                                        <color key="backgroundColor" red="0.19215688110000001" green="0.4352940917" blue="0.2823529541" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Take Time Stone"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J9B-pF-faY">
+                                        <rect key="frame" x="0.0" y="72.333333333333343" width="714" height="13"/>
+                                        <color key="backgroundColor" red="0.5411764979" green="0.24313727020000001" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Take Power Stone"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mIk-9O-KQm">
+                                        <rect key="frame" x="0.0" y="90.333333333333343" width="714" height="13"/>
+                                        <color key="backgroundColor" red="0.64705884459999996" green="0.35294118520000001" blue="0.18039217590000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Take Soul Stone"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zw3-FV-F5A">
+                                        <rect key="frame" x="0.0" y="108.33333333333334" width="714" height="13"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Take a chance and take them all"/>
+                                    </button>
+                                </subviews>
                                 <constraints>
-                                    <constraint firstItem="kzI-20-xI2" firstAttribute="leading" secondItem="Ry1-Px-xJq" secondAttribute="leading" id="KCO-Gt-Ow1"/>
+                                    <constraint firstAttribute="trailing" secondItem="3tx-Cg-pGS" secondAttribute="trailing" constant="20" id="4jb-rq-Lvd"/>
+                                    <constraint firstItem="0wJ-4w-lwz" firstAttribute="height" secondItem="3tx-Cg-pGS" secondAttribute="height" id="662-gN-rhA"/>
+                                    <constraint firstItem="0wJ-4w-lwz" firstAttribute="width" secondItem="3tx-Cg-pGS" secondAttribute="width" id="JNh-Jr-1eG"/>
+                                    <constraint firstAttribute="trailing" secondItem="0wJ-4w-lwz" secondAttribute="trailing" constant="20" id="PGE-it-DGR"/>
+                                    <constraint firstItem="1Wn-7I-uFD" firstAttribute="height" secondItem="3tx-Cg-pGS" secondAttribute="height" id="RO7-bz-xTl"/>
+                                    <constraint firstAttribute="trailing" secondItem="J9B-pF-faY" secondAttribute="trailing" constant="20" id="RwC-lK-72V"/>
+                                    <constraint firstItem="zw3-FV-F5A" firstAttribute="width" secondItem="3tx-Cg-pGS" secondAttribute="width" id="URb-cw-qeg"/>
+                                    <constraint firstAttribute="trailing" secondItem="zw3-FV-F5A" secondAttribute="trailing" constant="20" id="VdN-Xu-LHN"/>
+                                    <constraint firstItem="P9B-5R-Bfm" firstAttribute="width" secondItem="3tx-Cg-pGS" secondAttribute="width" id="Yw7-uQ-gch"/>
+                                    <constraint firstItem="J9B-pF-faY" firstAttribute="height" secondItem="3tx-Cg-pGS" secondAttribute="height" id="Zm1-U3-9wH"/>
+                                    <constraint firstItem="1Wn-7I-uFD" firstAttribute="width" secondItem="3tx-Cg-pGS" secondAttribute="width" id="co4-H2-HOA"/>
+                                    <constraint firstItem="P9B-5R-Bfm" firstAttribute="height" secondItem="3tx-Cg-pGS" secondAttribute="height" id="edO-lb-hge"/>
+                                    <constraint firstAttribute="trailing" secondItem="P9B-5R-Bfm" secondAttribute="trailing" constant="20" id="iuO-rb-S0g"/>
+                                    <constraint firstItem="zw3-FV-F5A" firstAttribute="height" secondItem="3tx-Cg-pGS" secondAttribute="height" id="lpf-uW-YFZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="mIk-9O-KQm" secondAttribute="trailing" constant="20" id="n4i-w1-pKD"/>
+                                    <constraint firstItem="mIk-9O-KQm" firstAttribute="width" secondItem="3tx-Cg-pGS" secondAttribute="width" id="oKj-5x-mDj"/>
+                                    <constraint firstItem="mIk-9O-KQm" firstAttribute="height" secondItem="3tx-Cg-pGS" secondAttribute="height" id="qkM-kP-AIK"/>
+                                    <constraint firstAttribute="trailing" secondItem="1Wn-7I-uFD" secondAttribute="trailing" constant="20" id="qz6-fw-jwq"/>
+                                    <constraint firstItem="J9B-pF-faY" firstAttribute="width" secondItem="3tx-Cg-pGS" secondAttribute="width" id="rFM-WS-NgC"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -43,10 +115,15 @@
                             <constraint firstAttribute="bottom" secondItem="n1G-JI-Cnz" secondAttribute="bottom" id="1To-fF-03e"/>
                             <constraint firstItem="Ry1-Px-xJq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="30" id="3qu-Ur-FLf"/>
                             <constraint firstItem="n1G-JI-Cnz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5Eg-DH-bFb"/>
+                            <constraint firstItem="qbd-NQ-pFt" firstAttribute="top" secondItem="Ry1-Px-xJq" secondAttribute="bottom" constant="50" id="8bO-fM-Do9"/>
+                            <constraint firstItem="qbd-NQ-pFt" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="10" id="B0X-FS-b6u"/>
                             <constraint firstItem="n1G-JI-Cnz" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="BRx-7u-qCh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qbd-NQ-pFt" secondAttribute="bottom" id="Nid-fn-Xmp"/>
+                            <constraint firstItem="qbd-NQ-pFt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="S6Z-Cy-Naj"/>
+                            <constraint firstItem="Ry1-Px-xJq" firstAttribute="height" secondItem="qbd-NQ-pFt" secondAttribute="height" multiplier="1.12824" id="Shj-Dw-kNd"/>
                             <constraint firstItem="n1G-JI-Cnz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="VZF-xk-RqY"/>
-                            <constraint firstItem="Ry1-Px-xJq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="XMa-PS-BAg"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ry1-Px-xJq" secondAttribute="trailing" constant="30" id="ZWe-wW-Fj9"/>
+                            <constraint firstItem="Ry1-Px-xJq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XMa-PS-BAg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ry1-Px-xJq" secondAttribute="trailing" id="ZWe-wW-Fj9"/>
                         </constraints>
                     </view>
                 </viewController>
