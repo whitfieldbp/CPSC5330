@@ -25,7 +25,7 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="all_stones" translatesAutoresizingMaskIntoConstraints="NO" id="kzI-20-xI2">
                                         <rect key="frame" x="95.000000000000014" y="0.0" width="203.33333333333337" height="276.33333333333331"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="You have found the Infinity Stones. Only take one or suffer the consequences..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="die-y2-8Qs" userLabel="Question">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="You have found the Infinity Stones. Only take one or suffer the consequences..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="die-y2-8Qs" userLabel="Question">
                                         <rect key="frame" x="8.6666666666666572" y="301.33333333333331" width="375.66666666666674" height="72"/>
                                         <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="24"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -42,6 +42,9 @@
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Choice1"/>
+                                        <connections>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XGJ-UY-FqX"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Wn-7I-uFD">
                                         <rect key="frame" x="0.0" y="48" width="373" height="42.666666666666657"/>
@@ -49,6 +52,9 @@
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Choice2"/>
+                                        <connections>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1iV-Tq-dd3"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0wJ-4w-lwz">
                                         <rect key="frame" x="0.0" y="95.666666666666686" width="373" height="43"/>
@@ -56,6 +62,9 @@
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Choice3"/>
+                                        <connections>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T5N-MJ-1se"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P9B-5R-Bfm">
                                         <rect key="frame" x="0.0" y="143.66666666666669" width="373" height="43"/>
@@ -63,6 +72,9 @@
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Choice4"/>
+                                        <connections>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GCl-eJ-UKd"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J9B-pF-faY">
                                         <rect key="frame" x="0.0" y="191.66666666666669" width="373" height="43"/>
@@ -70,6 +82,9 @@
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Choice5"/>
+                                        <connections>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ne4-lO-HrH"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mIk-9O-KQm">
                                         <rect key="frame" x="0.0" y="239.66666666666669" width="373" height="43"/>
@@ -77,6 +92,9 @@
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Choice6"/>
+                                        <connections>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JeY-3M-9HS"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zw3-FV-F5A">
                                         <rect key="frame" x="0.0" y="287.66666666666669" width="373" height="43"/>
@@ -84,6 +102,9 @@
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Choice7"/>
+                                        <connections>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J9Z-4t-ncg"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -126,6 +147,17 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ry1-Px-xJq" secondAttribute="trailing" id="ZWe-wW-Fj9"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="choiceButton1" destination="3tx-Cg-pGS" id="bzX-hr-QMq"/>
+                        <outlet property="choiceButton2" destination="1Wn-7I-uFD" id="tPH-wW-YKf"/>
+                        <outlet property="choiceButton3" destination="0wJ-4w-lwz" id="VoZ-Ve-HB0"/>
+                        <outlet property="choiceButton4" destination="P9B-5R-Bfm" id="xyn-3I-hMZ"/>
+                        <outlet property="choiceButton5" destination="J9B-pF-faY" id="p3u-fj-AAc"/>
+                        <outlet property="choiceButton6" destination="mIk-9O-KQm" id="pnK-Hm-1Z8"/>
+                        <outlet property="choiceButton7" destination="zw3-FV-F5A" id="q6r-5q-iIy"/>
+                        <outlet property="imageView" destination="kzI-20-xI2" id="3aC-q2-iuv"/>
+                        <outlet property="questionLabel" destination="die-y2-8Qs" id="k7L-4y-uWD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
