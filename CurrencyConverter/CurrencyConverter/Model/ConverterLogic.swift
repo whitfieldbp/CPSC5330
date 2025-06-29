@@ -21,5 +21,42 @@ struct ConverterLogic {
     let florinRate = 1.79
     let rupeeRate = 85.49
     
+    mutating func setAmount(_ amount: String) -> Bool {
+        if let value = Int(amount) {
+            usdAmount = value
+            return true
+        } else {
+            return false
+        }
+    }
     
+    mutating func setCurrency(euro: Bool, peso: Bool, florin: Bool, rupee: Bool) {
+        isEuroSelected = euro
+        isPesoSelected = peso
+        isFlorinSelected = florin
+        isRupeeSelected = rupee
+    }
+    
+    func getConversions() -> [String: String] {
+        var results = [String: String]()
+        results["USD"] = "$\(usdAmount)"
+        
+        if isEuroSelected {
+            results["Euro"] = String(format: "%.2f", Double(usdAmount) * euroRate)
+        }
+        
+        if isPesoSelected {
+            results["Peso"] = String(format: "%.2f", Double(usdAmount) * pesoRate)
+        }
+        
+        if isFlorinSelected {
+            results["Florin"] = String(format: "%.2f", Double(usdAmount) * florinRate)
+        }
+        
+        if isRupeeSelected {
+            results["Rupee"] = String(format: "%.2f", Double(usdAmount) * rupeeRate)
+        }
+        
+        return results
+    }
 }
