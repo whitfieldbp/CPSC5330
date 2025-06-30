@@ -59,4 +59,13 @@ struct ConverterLogic {
         
         return results
     }
+    
+    mutating func setup(amount: Int, selected: [String]) {
+        usdAmount = amount
+        isEuroSelected = selected.contains("Euro")
+        isPesoSelected = selected.contains("Peso")
+        isFlorinSelected = selected.contains("Florin")
+        isRupeeSelected = selected.contains("Rupee")
+    }
+
 }

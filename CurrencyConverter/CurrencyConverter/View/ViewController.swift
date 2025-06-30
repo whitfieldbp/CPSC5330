@@ -30,6 +30,7 @@ class ViewController: UIViewController {
     @IBAction func convertPressed(_ sender: UIButton) {
         guard let inputText = usdTextField.text, let inputAmount = Int(inputText) else {
             errorLabel.text = "Please enter a valid USD amount."
+            errorLabel.isHidden = false
             return
         }
         
@@ -47,15 +48,19 @@ class ViewController: UIViewController {
         
         if selectedCurrencies.isEmpty {
             errorLabel.text = "Please select at least one currency."
+            errorLabel.isHidden = false
             return
         }
         
-        performSegue(withIdentifier: "toConverter", sender: <#T##Any?#>) {
-            if segue.identifier == "toConverter" {
-                let destinationVC = segue.destination as! ConverterViewController
-                destinationVC.amount = amount
-                destinationVC.selectedCurrencies = selectedCurrencies
-            }
+        errorLabel.isHidden = true
+        performSegue(withIdentifier: "toConverter", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toConverter" {
+            let destinationVC = segue.destination as! ConverterView
+            destinationVC.amount = amount
+            destinationVC.selectedCurrencies = selectedCurrencies
         }
     }
 }
