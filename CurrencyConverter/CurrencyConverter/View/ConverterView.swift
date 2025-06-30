@@ -28,17 +28,33 @@ class ConverterView: UIViewController {
         converter.setup(amount: amount, selected: selectedCurrencies);
         
        let conversions = converter.getConversions()
+        
        if selectedCurrencies.contains("Euro") {
             euroLabel.text = "Amount in Euro: \(conversions["Euro"] ?? "")"
-        }
+           euroLabel.isHidden = false
+       } else {
+           euroLabel.isHidden = true
+       }
+        
         if selectedCurrencies.contains("Peso") {
             pesoLabel.text = "Amount in Peso: \(conversions["Peso"] ?? "")"
+            pesoLabel.isHidden = false
+        } else {
+            pesoLabel.isHidden = true
         }
+        
         if selectedCurrencies.contains("Florin") {
             florinLabel.text = "Amount in Florin: \(conversions["Florin"] ?? "")"
+            florinLabel.isHidden = false
+        } else {
+            florinLabel.isHidden = true
         }
+        
         if selectedCurrencies.contains("Rupee") {
             rupeeLabel.text = "Amount in Rupee: \(conversions["Rupee"] ?? "")"
+            rupeeLabel.isHidden = false
+        } else {
+            rupeeLabel.isHidden = true
         }
     }
     
