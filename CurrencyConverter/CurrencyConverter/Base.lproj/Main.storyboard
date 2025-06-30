@@ -52,7 +52,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OqH-wb-waL">
-                                                <rect key="frame" x="223.66666666666666" y="0.0" width="111.33333333333334" height="31"/>
+                                                <rect key="frame" x="223.66666666666663" y="0.0" width="111.33333333333337" height="31"/>
                                             </switch>
                                         </subviews>
                                     </stackView>
@@ -66,7 +66,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BDs-qK-qP2">
-                                                <rect key="frame" x="223.66666666666666" y="0.0" width="111.33333333333334" height="31"/>
+                                                <rect key="frame" x="223.66666666666663" y="0.0" width="111.33333333333337" height="31"/>
                                             </switch>
                                         </subviews>
                                     </stackView>
@@ -80,7 +80,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BOl-7E-Ufx">
-                                                <rect key="frame" x="223.66666666666666" y="0.0" width="111.33333333333334" height="31"/>
+                                                <rect key="frame" x="223.66666666666663" y="0.0" width="111.33333333333337" height="31"/>
                                             </switch>
                                         </subviews>
                                     </stackView>
@@ -94,7 +94,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GDc-gW-hYr">
-                                                <rect key="frame" x="223.66666666666666" y="0.0" width="111.33333333333334" height="31"/>
+                                                <rect key="frame" x="223.66666666666663" y="0.0" width="111.33333333333337" height="31"/>
                                             </switch>
                                         </subviews>
                                     </stackView>
@@ -109,7 +109,7 @@
                                 </subviews>
                             </stackView>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter a valid USD amount." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2tp-Zx-U0M">
-                                <rect key="frame" x="70.333333333333329" y="355.33333333333331" width="252.33333333333337" height="40.666666666666686"/>
+                                <rect key="frame" x="70.333333333333329" y="355.33333333333326" width="252.33333333333337" height="40.666666666666742"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" red="0.84313726430000002" green="0.27450981740000002" blue="0.31764706970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -151,25 +151,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="fKx-Lf-tBd">
-                                <rect key="frame" x="30" y="89" width="333" height="664"/>
+                                <rect key="frame" x="30" y="89" width="100" height="664"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount in USD" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fGh-UU-khL">
-                                        <rect key="frame" x="0.0" y="0.0" width="333" height="402"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="315.33333333333331"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
                                         <color key="textColor" red="0.84313726430000002" green="0.27450981740000002" blue="0.31764706970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="75" translatesAutoresizingMaskIntoConstraints="NO" id="wEs-bH-qnT">
-                                        <rect key="frame" x="0.0" y="410" width="333" height="43"/>
+                                        <rect key="frame" x="0.0" y="323.33333333333331" width="100" height="64.666666666666686"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Euro" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UZL-RN-VpF">
-                                                <rect key="frame" x="0.0" y="0.0" width="129" height="43"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="12.666666666666666" height="64.666666666666671"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Amount in Euro" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zze-BO-qkI">
-                                                <rect key="frame" x="204" y="0.0" width="129" height="43"/>
+                                                <rect key="frame" x="87.666666666666671" y="0.0" width="12.333333333333329" height="64.666666666666671"/>
                                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                                 <color key="textColor" red="0.84313726430000002" green="0.27450981740000002" blue="0.31764706970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -178,16 +178,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="75" translatesAutoresizingMaskIntoConstraints="NO" id="UhD-o1-f87">
-                                        <rect key="frame" x="0.0" y="461" width="333" height="43"/>
+                                        <rect key="frame" x="0.0" y="396" width="100" height="64.666666666666686"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Peso" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lh5-Ym-th5">
-                                                <rect key="frame" x="0.0" y="0.0" width="129" height="43"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="12.666666666666666" height="64.666666666666671"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Amount in Peso" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HNT-cT-gPd">
-                                                <rect key="frame" x="204" y="0.0" width="129" height="43"/>
+                                                <rect key="frame" x="87.666666666666671" y="0.0" width="12.333333333333329" height="64.666666666666671"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                                 <color key="textColor" red="0.84313726430000002" green="0.27450981740000002" blue="0.31764706970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
@@ -195,16 +195,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="75" translatesAutoresizingMaskIntoConstraints="NO" id="fW3-nF-OWG">
-                                        <rect key="frame" x="0.0" y="512" width="333" height="43"/>
+                                        <rect key="frame" x="0.0" y="468.66666666666663" width="100" height="64.666666666666629"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Florin" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xtc-xJ-nOy">
-                                                <rect key="frame" x="0.0" y="0.0" width="129" height="43"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="12.666666666666666" height="64.666666666666671"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Amount in Florin" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pRp-7o-Y6E">
-                                                <rect key="frame" x="204" y="0.0" width="129" height="43"/>
+                                                <rect key="frame" x="87.666666666666671" y="0.0" width="12.333333333333329" height="64.666666666666671"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                                 <color key="textColor" red="0.84313726430000002" green="0.27450981740000002" blue="0.31764706970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
@@ -212,16 +212,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="75" translatesAutoresizingMaskIntoConstraints="NO" id="boc-6R-DF6">
-                                        <rect key="frame" x="0.0" y="563" width="333" height="43"/>
+                                        <rect key="frame" x="0.0" y="541.33333333333337" width="100" height="64.666666666666629"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rupee" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h1P-as-PMN">
-                                                <rect key="frame" x="0.0" y="0.0" width="129" height="43"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="12.666666666666666" height="64.666666666666671"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Amount in Rupee" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NXO-jk-fhs">
-                                                <rect key="frame" x="204" y="0.0" width="129" height="43"/>
+                                                <rect key="frame" x="87.666666666666671" y="0.0" width="12.333333333333329" height="64.666666666666671"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                                 <color key="textColor" red="0.84313726430000002" green="0.27450981740000002" blue="0.31764706970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
@@ -229,7 +229,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYk-zJ-ob2" userLabel="Back">
-                                        <rect key="frame" x="0.0" y="614" width="333" height="50"/>
+                                        <rect key="frame" x="0.0" y="614" width="100" height="50"/>
                                         <color key="backgroundColor" red="0.1960784314" green="0.57482993199999999" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="5IC-yP-AXB"/>
@@ -245,7 +245,6 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="aYk-zJ-ob2" firstAttribute="centerX" secondItem="fKx-Lf-tBd" secondAttribute="centerX" id="cIK-bX-LVg"/>
-                                    <constraint firstItem="aYk-zJ-ob2" firstAttribute="top" secondItem="boc-6R-DF6" secondAttribute="bottom" constant="50" id="dbn-S1-otH"/>
                                 </constraints>
                             </stackView>
                         </subviews>
