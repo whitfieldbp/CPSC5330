@@ -18,7 +18,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         GameConsoleLogic(name: "Game Boy", releaseYear: 1989, sales: "130M", manufacturer: "Nintendo", funFact: "First handheld video game console"),
         GameConsoleLogic(name: "Sega Genesis", releaseYear: 1988, sales: "90M", manufacturer: "Sega", funFact: "First home video game console to feature 32-bit graphics"),
         GameConsoleLogic(name: "N64", releaseYear: 1996, sales: "50M", manufacturer: "Nintendo", funFact: "First home video game console to feature built-in Wi-Fi"),
-        GameConsoleLogic(name: "Dreamcast", releaseYear: 1998, sales: "30M", manufacturer: "Sony", funFact: "First home video game console to feature 3D graphics")
+        GameConsoleLogic(name: "Dreamcast", releaseYear: 1998, sales: "30M", manufacturer: "Sony", funFact: "First home video game console to feature 3D graphics"),
+        GameConsoleLogic(name: "Atari 2600", releaseYear: 1977, sales: "20M", manufacturer: "Atari", funFact: "First home video game console to feature built-in sound"),
+        GameConsoleLogic(name: "TurboGrafx-16", releaseYear: 1992, sales: "20M", manufacturer: "SNK", funFact: "First home video game console to feature 16-bit graphics"),
+        GameConsoleLogic(name: "Intellivision", releaseYear: 1983, sales: "10M", manufacturer: "Atari", funFact: "First home video game console to feature built-in color display"),
+        GameConsoleLogic(name: "Playstation 3", releaseYear: 2006, sales: "40M", manufacturer: "Sony", funFact: "First home video game console to feature Blu-ray")
     ]
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
